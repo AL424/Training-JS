@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>TABS</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">
+                Тренировка Javascript
+            </h1>
+        </div>
+    </header>
+    <section class="tabs-section" id="tabs-section">
+        <div class="container">
+            <h2 class="section-title">
+                1. Табы
+            </h2>
+            <div class="tabs-wrap">
+                <div class="tabs" id="tabs">
+                    <button type="button" class="tab tab_active" data-tab="giraffe">Жираф</button>
+                    <button type="button" class="tab" data-tab="deer">Олень</button>
+                    <button type="button" class="tab" data-tab="goat">Козочка</button>
+                    <button type="button" class="tab" data-tab="chipmunk">Бурундук</button>
+                </div>
+                <div class="contents" id="contents">
+                    <div class="content content_active" data-content="giraffe">
+                        <h3 class="content__title">
+                            Жираф
+                        </h3>
+                        <p class="content__text">
+                            Жирафы (лат. Giraffa) — род парнокопытных млекопитающих из семейства жирафовых. Древние ископаемые виды жирафов известны из миоцена — плейстоцена Африки, Передней и Центральной Азии, и плейстоцена Японии. Современный жираф обитает в саваннах Африки южнее Сахары.
+                        </p>
+                        <p class="content__text">
+                            Генетический анализ почти двух сотен жирафов показал, что существует не один вид Giraffa camelopardalis с несколькими подвидами, а 4 отдельных вида. Время отделения южных жирафов датируется возрастом 1,99 млн л. н., масайских жирафов — возрастом 1,89 млн л. н. Время разделения сетчатых и северных жирафов датируется возрастом 1,25 млн лет назад.
+                        </p>
+                    </div>
+                    <div class="content" data-content="deer">
+                        <h3 class="content__title">
+                            Олень
+                        </h3>
+                        <p class="content__text">
+                            Олень (лат. Cervidae), — семейство парнокопытных млекопитающих, содержащее 51 современный вид. Оленевые распространены в Евразии, Северной и Южной Америке, а также были завезены человеком в Австралию и Новую Зеландию.
+                        </p>
+                        <p class="content__text">
+                            Первые олени появились в олигоцене в Азии. Из неё они распространились в Европу и в миоцене по существовавшему тогда естественному мосту в Северную Америку. В Южную Америку олени добрались лишь в геохронологически недавнем плейстоцене.
+                        </p>
+                    </div>
+                    <div class="content" data-content="goat">
+                        <h3 class="content__title">
+                            Козочка
+                        </h3>
+                        <p class="content__text">
+                            Домашняя коза (лат. Capra hircus) — домашнее животное, вид парнокопытных из рода горные козлы (Capra) семейства полорогих.
+                        </p>
+                        <p class="content__text">
+                            Коза — одно из первых прирученных животных. Одомашнена на Ближнем Востоке, приблизительно 9 тыс. лет назад. Предком домашней козы был дикий безоаровый козёл (Capra hircus aegagrus), до сегодняшнего дня встречающийся от греческих островов в Эгейском море через Малую Азию, Армянское нагорье и Переднюю Азию до Средней Азии.
+                        </p>
+                    </div>
+                    <div class="content" data-content="chipmunk">
+                        <h3 class="content__title">
+                            Бурундук
+                        </h3>
+                        <p class="content__text">
+                            Бурундук (лат. Tamiina) — монофилетическая группа (подтриба) грызунов из семейства беличьих. Согласно классификации, принимаемой Красной книгой МСОП, существует три самостоятельных рода бурундуков: Neotamias, Eutamias и Tamias (традиционно рассматривались как подроды рода Tamias). Всего описано 25 современных видов бурундуков, большинство из которых обитает в Северной Америке, за исключением одного евразийского вида — азиатского, или сибирского, бурундука (Eutamias sibiricus).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="modal-section" id="modal-section">
+        <div class="container">
+            <h2 class="section-title">
+                2. Модальное окно
+            </h2>
+            <button class="modal-btn" id="modal-btn" type="button">Вызвать дождь</button>
+            <div class="modal-wrap" id="modal-wrap">
+                <div class="overlay" id="overlay"></div>
+                <div class="modal-window" id="modal-window">
+                    <div class="modal-content">
+                        <h3 class="modal-content__title">
+                            Немного о дожде
+                        </h3>
+                        <p class="modal-content__text">
+                            До́ждь — атмосферные осадки, выпадающие из облаков в виде капель жидкости со средним диаметром от 0,5 до 6—7 мм[1].
+                        </p>
+                        <p class="modal-content__text">
+                            Осенние дожди. Южная Эстония
+                        </p>
+                        <p class="modal-content__text">
+                            Летний дождь в Санкт-Петербурге
+                            Жидкие осадки с меньшим диаметром капель называются моросью[2]. Капли с диаметром больше 6—7 мм разбиваются в процессе падения из облаков на меньшие капли, поэтому даже при сильнейшем ливне диаметр капель не превышает 6—7 мм. Интенсивность дождя обычно составляет от 0,25 мм/ч (моросящий дождь) до 100 мм/ч (ливень)[1]. В Европе самый сильный ливень с интенсивностью 15,5 мм/мин был зафиксирован в 1920 году в Германии[2].
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </section>
+    <section class="slider" id="slider">
+        <div class="container">
+            <h2 class="section-title">
+                3. Слайдер
+            </h2>
+            <div class="slider__wrap">
+                <div class="slide slide_active">
+                    <h3 class="slide__title">
+                        Это слайд 1 с текстом
+                    </h3>
+                </div>
+                <div class="slide">
+                    <h3 class="slide__title">
+                        Это слайд 2 с текстом
+                    </h3>
+                </div>
+                <div class="slide">
+                    <h3 class="slide__title">
+                        Это слайд 3 с текстом
+                    </h3>
+                </div>
+                <button type="button" class="slide-btn slide-btn_prev" id="slide-btn_prev"></button>
+                <button type="button" class="slide-btn slide-btn_next" id="slide-btn_next"></button>
+                <div class="dots-wrapper">
+                    <button type="button" class="dot dot_active"></button>
+                    <button type="button" class="dot"></button>
+                    <button type="button" class="dot"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <h2 class="section-title">
+                Ну, что поделать, если мне все это удалось! :)
+            </h2>
+        </div>
+    </footer>
+    <script src="js/tabs.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
